@@ -1,0 +1,66 @@
+#name {
+			font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+			padding-left: 25px;
+			text-shadow: 2px 3px 2px #000;
+}
+
+header {
+			color: #fff;
+			background-color: transparent;
+}
+
+nav {
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		text-align: right;
+		color: #fff;
+}
+
+nav a {
+		color: #fff;
+		text-decoration: none;
+		padding-right: 25px;
+}
+
+header a {
+			color: #fff;
+			text-decoration: none;
+			padding-right: 15px;
+}
+
+
+body {
+		background: url("background.jpg") no-repeat;
+		background-size: cover;
+}
+
+
+.container {
+				display: inline-block;
+				cursor: pointer;
+                float: right;
+                padding-right: 25px;
+}
+
+.bar1, .bar2, .bar3 {
+						width: 35px;
+						height: 5px;
+						background-color: #fff;
+						margin: 6px 0;
+						transition: 0.4s;
+}
+
+/*Rotate the first bar*/
+.change .bar1 {
+					-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/*Fade out the second bar*/
+.change .bar2 {
+					opacity: 0;
+}
+
+/*Rotate the last bar*/
+.change .bar3 {
+					-webkit-transform: rotate(-45deg) translate(-8px, -8px);
+					transform: rotate(45deg) translate(-8px, -8px);
+}
